@@ -9,11 +9,13 @@ link -> https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/javascript
 */
 
 function repeatStr(n, s) {
-  let str = "";
-  for (let i = 0; i < n; i++) {
-    str += s;
-  }
-  console.log(str);
-  return str;
+  //   let str = "";
+  //   for (let i = 0; i < n; i++) {
+  //     str += s;
+  //   }
+  //   console.log(str);
+  //   return str;
+  // use the repeat function
+  return s.repeat(n);
 }
 repeatStr(15, "a");
